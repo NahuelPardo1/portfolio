@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/CurriculumNP-FS.pdf";
+import resumePDF from "../../assets/cvNahuelPardo.pdf";
 
 const Hero = ({theme}) => {
   return (
@@ -25,8 +25,6 @@ const Hero = ({theme}) => {
               data-aos="fade-up"
               sequence={[
                 "Full Stack Developer",
-                2000,
-                "Front-End Developer",
                 2000,
                 "Back-End Developer",
                 2000,
