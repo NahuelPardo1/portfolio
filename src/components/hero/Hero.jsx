@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/cvNahuelPardo.pdf";
+import resumePDF from "../../assets/NP-BackendDev.pdf";
 
 const Hero = ({theme}) => {
   return (
@@ -24,10 +24,8 @@ const Hero = ({theme}) => {
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Full Stack Developer",
-                2000,
                 "Back-End Developer",
-                2000,
+                2000
               ]}
               speed={30}
               wrapper="h2"
@@ -71,18 +69,6 @@ const Hero = ({theme}) => {
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 dark:text-white" />{" "}
                 </a>
               </li>
-              <li>
-                <a href="https://www.instagram.com/nahupardo_/">
-                  {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 dark:text-white " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/nahupardo_">
-                  {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 dark:text-white " />{" "}
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -96,20 +82,6 @@ const Hero = ({theme}) => {
               // src={mine}
               alt="mine"
             />
-            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
-              <div data-aos="zoom-in" data-aos-duration="100"  className=" relative ">
-                <img
-                  className=" w-[135px] md:w-[90px] circle-text"
-                  src={`${theme === "light" ? "https://i.postimg.cc/vB1P7W5H/Full-Stack-Circle-W.webp" : "https://i.postimg.cc/85hpCrss/Full-Stack-Circle-B.webp"}`}
-                  alt="Front End Developer image"
-                  width="300"
-                  height="300"
-                />
-                <FaPlay
-                  className=" text-black dark:text-white absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </div>

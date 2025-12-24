@@ -35,7 +35,7 @@ const Resume = ({theme}) => {
       {/* Tarjeta 1 */}
       <div className="flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg ml-8">
         <h1 className="text-[1.4rem] dark:text-sky-500 font-semibold sm:text-xl">
-          Full Stack Developer
+          Backend Developer
         </h1>
         <span className="text-[.9rem] dark:text-slate-200 font-semibold text-gray-500 sm:text-base">
           Acudir Emergencias Medicas S.A
@@ -45,10 +45,9 @@ const Resume = ({theme}) => {
         </span>
         <ul className="list-disc pl-5 text-[.9rem] break-words text-gray-500 dark:text-slate-200">
           <li>Diseño y desarrollo de una aplicación de video consultas médicas en entorno remoto, orientada a mejorar la comunicación entre pacientes y profesionales de la salud.</li>
-          <li>Desarrollo full stack utilizando .NET (back-end), SQL Server (base de datos) y React.js (front-end), garantizando escalabilidad, seguridad y un rendimiento óptimo.</li>
+          <li>Desarrollo full stack utilizando .NET, SQL Server, Entity Framework Core y AWS garantizando escalabilidad, seguridad y un rendimiento óptimo.</li>
           <li>Implementación de módulos clave: gestión de usuarios y pacientes, turnos online, autenticación segura y notificaciones en tiempo real.</li>
           <li>Integración de la capa de datos con SQL Server, optimizando la persistencia, consultas y rendimiento del sistema.</li>
-          <li>Creación de interfaces dinámicas y responsivas con React.js, enfocadas en usabilidad y accesibilidad.</li>
         </ul>
       </div>
       {/* Tarjeta 2 */}
