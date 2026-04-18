@@ -1,21 +1,9 @@
 import React from "react";
 import SkillBox from "../../chip/SkillBox";
 
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
-
-
-import {
-  SiJavascript,
-  SiTailwindcss,
-  SiMongodb,
-  SiExpress,
-  SiNextdotjs,
-  SiDotnet
-} from "react-icons/si";
-
-
-import { FaReact } from "react-icons/fa";
-import { IoLogoNodejs } from "react-icons/io";
+import { IoLogoHtml5, IoLogoCss3, IoLogoNodejs } from "react-icons/io";
+import { SiJavascript, SiTailwindcss, SiNextdotjs, SiDotnet } from "react-icons/si";
+import { FaReact, FaAngular, FaVuejs, FaJava, FaDatabase } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -35,79 +23,36 @@ const Skills = () => {
               data-aos="zoom-in"
               className="progress flex items-center h-[100%] justify-center"
             >
-              <div className="flex xl:grid xl:grid-cols-3 gap-10 justify-center my-5 w-full">
+              <div className="flex xl:grid xl:grid-cols-4 gap-10 justify-center my-5 w-full">
                 <div className="flex items-center flex-col gap-10">
-                <SkillBox
-                logo={<IoLogoHtml5 />}
-                black={"black"}
-                white={"white"}
-                skill={"HTML5"}
-                />
-                <SkillBox
-                logo={<IoLogoCss3 />}
-                black={"black"}
-                white={"white"}
-                skill={"CSS"}
-                />
+                  <SkillBox logo={<SiDotnet />} black={"black"} white={"white"} skill={"C# / .NET"} />
+                  <SkillBox logo={<FaJava />} black={"black"} white={"white"} skill={"Java"} />
                 </div>
+
                 <div className="flex items-center flex-col gap-10">
-                <SkillBox
-                logo={<SiJavascript />}
-                black={"white"}
-                white={"black"}
-                skill={"JavaScript"}
-                />
-                <SkillBox
-                logo={<FaReact/>}
-                black={"white"}
-                white={"black"}
-                skill={"React"}
-                />
+                  <SkillBox logo={<IoLogoNodejs />} black={"white"} white={"black"} skill={"Node.js"} />
+                  <SkillBox logo={<FaDatabase />} black={"white"} white={"black"} skill={"SQL / MySQL"} />
                 </div>
-                <div className=" flex items-center flex-col gap-10">
-                <SkillBox
-                logo={<SiTailwindcss />}
-                black={"black"}
-                white={"white"}
-                skill={"Tailwind CSS"}
-                />
-                <SkillBox
-                logo={<SiNextdotjs />}
-                black={"black"}
-                white={"white"}
-                skill={"Next JS"}
-                shadow={"sky-500"}
-                
-                />
+
+                <div className="flex items-center flex-col gap-10">
+                  <SkillBox logo={<FaReact />} black={"white"} white={"black"} skill={"React"} />
+                  <SkillBox logo={<FaAngular />} black={"white"} white={"black"} skill={"Angular"} />
                 </div>
-                <div className=" flex items-center flex-col gap-10">
-              <SkillBox
-                logo={<IoLogoNodejs />}
-                black={"white"}
-                white={"black"}
-                skill={"Node Js"}
-              />
-              <SkillBox
-                logo={<SiMongodb />}
-                black={"white"}
-                white={"black"}
-                skill={"MongoDB"}
-              />
-            </div>
-            <div className=" flex items-center flex-col gap-10">
-              <SkillBox
-                logo={<SiExpress />}
-                black={"black"}
-                white={"white"}
-                skill={"Express Js"}
-              />
-              <SkillBox
-                logo={<SiDotnet />}
-                black={"black"}
-                white={"white"}
-                skill={".NET"}
-              />
-              </div>
+
+                <div className="flex items-center flex-col gap-10">
+                  <SkillBox logo={<FaVuejs />} black={"black"} white={"white"} skill={"Vue"} />
+                  <SkillBox logo={<SiNextdotjs />} black={"black"} white={"white"} skill={"Next.js"} />
+                </div>
+
+                <div className="flex items-center flex-col gap-10">
+                  <SkillBox logo={<IoLogoHtml5 />} black={"black"} white={"white"} skill={"HTML5"} />
+                  <SkillBox logo={<IoLogoCss3 />} black={"black"} white={"white"} skill={"CSS3"} />
+                </div>
+
+                <div className="flex items-center flex-col gap-10">
+                  <SkillBox logo={<SiJavascript />} black={"white"} white={"black"} skill={"JavaScript"} />
+                  <SkillBox logo={<SiTailwindcss />} black={"black"} white={"white"} skill={"Tailwind CSS"} />
+                </div>
               </div>
             </div>
           </div>
