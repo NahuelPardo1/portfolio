@@ -38,6 +38,14 @@ export const data = [
       desc: "",
       link: "",
       git: "https://github.com/NahuelPardo1/SGCDU"
+    },
+    {
+      id: 6,
+      img: 'https://i.postimg.cc/sXRzVKLK/dotnet4logo.jpg',
+      title: "Sistema de Gestion de Inventario de Libros",
+      desc: "",
+      link: "",
+      git: "https://github.com/NahuelPardo1/GestionInventarioDeLibros"
     }
     
 
