@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { data } from "../data/data";
 import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineGithub } from "react-icons/ai";
-import { Link } from "react-router-dom";
 
 const WorkCard = () => {
   const reversedData = [...data].reverse();
@@ -35,24 +34,26 @@ const WorkCard = () => {
 
                 <div className=" flex items-center justify-center gap-4">
                   {data.link !== "" && (
-                    <Link
-                      to={data.link}
+                    <a
+                      href={data.link}
                       target="_blank"
+                      rel="noreferrer"
                       className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                     >
                       <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
                       <p className=" text-black">Demo</p>
-                    </Link>
+                    </a>
                   )}
                   <br className="w-[2px] bg-white" />
-                  <Link
-                    to={data.git}
+                  <a
+                    href={data.git}
                     target="_blank"
+                    rel="noreferrer"
                     className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                   >
                     <AiOutlineGithub className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
                     <p className=" text-black">Code</p>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </POPUP>

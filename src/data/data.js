@@ -45,7 +45,7 @@ export const data = [
       title: "Sistema de Gestion de Inventario de Libros",
       desc: "",
       link: "",
-      git: "https://github.com/NahuelPardo1/GestionInventarioDeLibros"
+      git: "https://github.com/NahuelPardo1/GestionInventario"
     }
     
 
