@@ -12,7 +12,7 @@ const Resume = ({theme}) => {
       </div>
       <div data-aos="fade-up" className="left flex-1 w-full">
         <p className=" text-gray-700 dark:text-white font-medium w-[100%]">
-          Mi experiencia y mi educación.
+          Mi experiencia profesional y mi educación.
         </p>
       </div>
       {/* card*/}
@@ -35,19 +35,19 @@ const Resume = ({theme}) => {
       {/* Tarjeta 1 */}
       <div className="flex flex-col gap-1 sm:gap-1 border-2 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg ml-8">
         <h1 className="text-[1.4rem] dark:text-sky-500 font-semibold sm:text-xl">
-          Backend Developer
+          Full Stack Developer
         </h1>
         <span className="text-[.9rem] dark:text-slate-200 font-semibold text-gray-500 sm:text-base">
-          Acudir Emergencias Medicas S.A
+          Accenture
         </span>
         <span className="text-[.9rem] font-semibold text-sky-500 sm:text-base">
-          Enero 2023 - Enero 2024
+          Marzo 2024 - Presente
         </span>
         <ul className="list-disc pl-5 text-[.9rem] break-words text-gray-500 dark:text-slate-200">
-          <li>Diseño y desarrollo de una aplicación de video consultas médicas en entorno remoto, orientada a mejorar la comunicación entre pacientes y profesionales de la salud.</li>
-          <li>Desarrollo full stack utilizando .NET, SQL Server, Entity Framework Core y AWS garantizando escalabilidad, seguridad y un rendimiento óptimo.</li>
-          <li>Implementación de módulos clave: gestión de usuarios y pacientes, turnos online, autenticación segura y notificaciones en tiempo real.</li>
-          <li>Integración de la capa de datos con SQL Server, optimizando la persistencia, consultas y rendimiento del sistema.</li>
+          <li>Desarrollo de software sobre un proyecto monolítico con .NET Framework 8, .NET Core y React.</li>
+          <li>Implementación y mantenimiento de APIs REST para aplicaciones internas de gran escala.</li>
+          <li>Trabajo bajo metodología ágil Scrum, con seguimiento de tareas y entregas continuas.</li>
+          <li>Automatización de despliegues en Azure DevOps y gestión de datos con SQL y MySQL.</li>
         </ul>
       </div>
       {/* Tarjeta 2 */}
@@ -56,19 +56,16 @@ const Resume = ({theme}) => {
           Full Stack Developer
         </h1>
         <span className="text-[.9rem] dark:text-slate-200 font-semibold text-gray-500 sm:text-base">
-          Desarrollo Freelance
+          PwC
         </span>
         <span className="text-[.9rem] font-semibold text-sky-500 sm:text-base">
-          Mayo 2022 - Actual
+          Enero 2023 - Marzo 2024
         </span>
         <ul className="list-disc pl-5 text-[.9rem] break-words text-gray-500 dark:text-slate-200">
-          <li>Desarrollo de aplicaciones junto a un equipo de trabajo freelance.</li>
-          <li>Participación en todas las etapas: análisis, diseño, programación y pruebas.</li>
-          <li>Uso de tecnologías como React.js, Node.js, .Net, y herramientas de control de versiones como Git.</li>
-          <li>Comunicación con clientes para definir requerimientos y entregar soluciones a medida.</li>
-          <li>Implementación de metodologías ágiles (Scrum) para organizar el trabajo en equipo y mejorar la productividad.</li>
-          <li>Colaboración bajo metodologías ágiles (Scrum), participando en la definición de requisitos, estimaciones de esfuerzo y revisión de entregables.</li>
-          <li>Contribución directa a la digitalización de procesos internos y a la mejora en la calidad de la atención médica remota.</li>
+          <li>Coordinación y desarrollo de soluciones en el área de sistemas para clientes corporativos.</li>
+          <li>Back-end en .NET y .NET Core, y front-end web con Angular y React.</li>
+          <li>Gestión de tickets y seguimiento de sprint con Jira dentro de equipos Scrum.</li>
+          <li>Despliegues en máquinas virtuales mediante IIS para ambientes de testing y producción.</li>
         </ul>
       </div>
     </fieldset>
@@ -97,10 +94,10 @@ const Resume = ({theme}) => {
                   Licenciatura en Sistemas
                 </span>
                 <span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-                  2024 - Actual
+                  2024 - En curso
                 </span>
-                <p className=" text-[.9rem] text-justify text-gray-500">
-              
+                <p className=" text-[.9rem] text-justify text-gray-500 dark:text-slate-200">
+                  Materias destacadas: Sistemas Operativos, Programación Orientada a Objetos y Bases de Datos.
                 </p>
               </div>
               <div className=" flex flex-col gap-1 border-2 mt-5 border-sky-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
@@ -108,16 +105,13 @@ const Resume = ({theme}) => {
                   Udemy
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 dark:text-slate-200 sm:text-base">
-                  Programación
+                  Formación Complementaria
                 </span>
                 <span className=" text-[.9rem] font-semibold text-sky-500 sm:text-base">
-                  2022 - Actual
+                  2022 - 2024
                 </span>
                 <p className=" text-[.9rem] dark:text-slate-200 text-justify text-gray-500">
-                Desarrollo web completo - CSS3 | HTML5 | JavaScript| SASS | PHP | MySQL.
-                </p>
-                <p className=" dark:text-slate-200 text-[.9rem] text-justify text-gray-500">
-                React - MERN.
+                  React (Hooks, Context, Redux, MERN) y Desarrollo Web Completo.
                 </p>
               </div>
             </div>
